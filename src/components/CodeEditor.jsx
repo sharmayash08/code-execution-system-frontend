@@ -47,7 +47,7 @@ const CodeEditor = () => {
   const handleRunCode = async () => {
     setLoading(true); 
     try {
-      const response = await fetch("http://34.227.13.4:3000/api/run", {
+      const response = await fetch("http://52.23.204.100:3000/api/run", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ code, language }),
