@@ -161,7 +161,7 @@ const CodeEditor = () => {
                 ? "text-red-400"
                 : "text-white"
               }`}
-              style={{ maxHeight: "calc(50vh - 100px)" }} // Ensures the output area is scrollable and fits
+              style={{ maxHeight: "calc(50vh - 100px)" }}
             >
               {output}
             </pre>
